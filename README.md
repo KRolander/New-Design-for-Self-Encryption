@@ -23,6 +23,18 @@ The following figure shows the main steps of our self-encryption method:
 
 This work was presented as an invited paper at the International Symposium on Intelligent and Trustworthy Computing, Communications, and Networking organized in conjunction with the 22nd IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom-2023), 1-3 Nov, Exeter, UK
 
+# USAGE 
+We recommend that you use for the encryption:
+```bash
+ ./start_test_encryption.sh
+```
+and for the decryption 
+```bash
+ ./start_test_decryption.sh
+```
+bash scripts.
+
+* For the encryption process you also have to provide a secret key and a X.509 certificate. An example of the secret key is provided under: `data/test2/MSP/keystore/sk.pem` and an X.509 certificate under `data/test2/signcerts/cert.pem`
 
 
 # ACKNOWLEDGMENTS
