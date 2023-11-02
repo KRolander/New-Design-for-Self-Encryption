@@ -34,6 +34,9 @@ and for the decryption
 ```
 bash scripts.
 
+* After running the encryption, folders will be automatically created for the encrypted data chunks, the references and the keys. In the example we encrypt the paper (.pdf) of the original self-encryption. Folders for the decrypted data will also be generated after calling the decryption process.
+
+
 * For the encryption process you also have to provide a secret key and a X.509 certificate. An example of the secret key is provided under: `data/test2/MSP/keystore/sk.pem` and an X.509 certificate under `data/test2/signcerts/cert.pem`
 
 
